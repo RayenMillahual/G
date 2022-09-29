@@ -1,0 +1,40 @@
+{
+  "name": "app-viajante",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^1.11.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@expo/webpack-config": "^0.17.2",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.5",
+    "bootstrap": "^5.2.1",
+    "expo": "~46.0.9",
+    "expo-splash-screen": "~0.16.2",
+    "expo-status-bar": "~1.4.0",
+    "firebase": "^9.10.0",
+    "markdown-to-jsx": "^7.1.7",
+    "primeicons": "^5.0.0",
+    "primereact": "^8.5.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.69.5",
+    "react-native-web": "~0.18.7",
+    "react-player": "^2.11.0",
+    "react-router-dom": "^6.4.0",
+    "reactfire": "^4.0.0-rc.2",
+    "sweetalert2": "^11.4.33",
+    "sweetalert2-react-content": "^5.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
